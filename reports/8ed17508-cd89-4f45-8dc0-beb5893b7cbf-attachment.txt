@@ -1,0 +1,7 @@
+[32mINFO    [0m root:api_client.py:17 Request: POST https://petstore.swagger.io/v2/pet
+[32mINFO    [0m root:api_client.py:19 Payload: {'id': 17335, 'category': {'id': 0, 'name': 'Dog'}, 'name': 'Dobby', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'available'}
+[32mINFO    [0m root:api_client.py:22 Response Status: 200
+[32mINFO    [0m root:api_client.py:23 Response Body: {"id":17335,"category":{"id":0,"name":"Dog"},"name":"Dobby","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+[32mINFO    [0m root:api_client.py:17 Request: GET https://petstore.swagger.io/v2/pet/17335
+[32mINFO    [0m root:api_client.py:22 Response Status: 200
+[32mINFO    [0m root:api_client.py:23 Response Body: {"id":17335,"category":{"id":0,"name":"Dog"},"name":"Dobby","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}

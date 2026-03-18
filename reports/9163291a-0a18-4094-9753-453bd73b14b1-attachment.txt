@@ -1,0 +1,7 @@
+2026-03-18 15:39:34,439 - root - INFO - Request: POST https://petstore.swagger.io/v2/pet
+2026-03-18 15:39:34,439 - root - INFO - Payload: {'id': 17335, 'category': {'id': 0, 'name': 'Dog'}, 'name': 'Dobby', 'photoUrls': ['string'], 'tags': [{'id': 0, 'name': 'string'}], 'status': 'available'}
+2026-03-18 15:39:35,722 - root - INFO - Response Status: 200
+2026-03-18 15:39:35,722 - root - INFO - Response Body: {"id":17335,"category":{"id":0,"name":"Dog"},"name":"Dobby","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+2026-03-18 15:39:35,722 - root - INFO - Request: GET https://petstore.swagger.io/v2/pet/17335
+2026-03-18 15:39:35,971 - root - INFO - Response Status: 200
+2026-03-18 15:39:35,971 - root - INFO - Response Body: {"id":17335,"category":{"id":0,"name":"Dog"},"name":"Dobby","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
